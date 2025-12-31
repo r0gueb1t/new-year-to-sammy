@@ -33,9 +33,8 @@ nextBtn.addEventListener("click", () => showImage(currentIndex + 1));
 
 // AUDIO PLAYLIST AUTOPLAY
 const playlist = [
-  { src: "audio/track1.mp3", name: "Track 1" },
-  { src: "audio/track2.mp3", name: "Track 2" },
-  { src: "audio/track3.mp3", name: "Track 3" },
+  { src: "audio/Aethu Kari Raavilum.mp3", name: "Aethu Kari Raavilum" },
+  { src: "audio/Maula Mere Maula.mp3", name: "Maula Mere Maula" },
 ];
 
 let currentTrack = 0;
@@ -58,3 +57,4 @@ audioPlayer.addEventListener("ended", () => {
 // init
 showImage(0);
 loadTrack(0);
+
